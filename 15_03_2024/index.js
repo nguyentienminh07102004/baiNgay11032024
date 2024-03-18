@@ -1,6 +1,6 @@
 let year = parseInt(prompt("Enter a age: "));
 let mess = "";
-if(2024 - year >= 18){
+if((new Date()).getFullYear() - year >= 18){
     mess = "Old enough";
 }
 else{
