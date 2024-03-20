@@ -1,5 +1,5 @@
-for(let i = 1; i < 11; i++){
-    if(i !== 5){
-        console.log(i);
-    }
+let cnt = 1;
+while(300000 * Math.pow(1.05, cnt) <= 4000000){
+    cnt++;
 }
+document.write(cnt);
