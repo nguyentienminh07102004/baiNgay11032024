@@ -1,0 +1,29 @@
+.buttonCalculator{
+    width: 100%;
+    height: 46px;
+    background-color: #D1D1D1;
+}
+.display{
+    width: 359px;
+    height: 60px;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+body{
+    border: 1px solid black;
+    width: 385px;
+    height: 288px;
+}
+
+.button {
+    width: 100%;
+    height:auto;
+}
+
+table {
+    width: 100%;
+}
+#display{
+    font-size: 60px;
+    text-align: right;
+}
