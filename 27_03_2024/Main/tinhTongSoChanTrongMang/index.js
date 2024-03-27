@@ -4,9 +4,9 @@ let numbers = [
     [1, 2, 1, 8]
 ];
 let sum = 0;
-let content = "<table>";
+let content = '<table>';
 for(let Values of numbers){
-    content += "<tr>";
+    content += '<tr>';
     for(let value of Values){
         content += "<td>" + value + "</td>";
     }
